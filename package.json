@@ -27,7 +27,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
+      "not dead", //have to delete if can't npm run build
       "not op_mini all"
     ],
     "development": [
