@@ -8,7 +8,9 @@ const SearchBox = ( { searchChange } ) => {
                 type="search" 
                 placeholder="search robots"
                 onChange={searchChange}
-            /> 
+            />
+            <br/>
+            <p id='searchBoxText'>Search by name or email.</p>
         </div>
         
     );

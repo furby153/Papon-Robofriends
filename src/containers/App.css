@@ -10,3 +10,9 @@ h1 {
     font-weight: 200;
     color: azure;
 }
+
+#searchBoxText {
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 20;
+    color: azure;
+}
