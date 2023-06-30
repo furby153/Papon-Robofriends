@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Papon-Robofriends/static/css/main.98aaa3ac.css",
-    "main.js": "/Papon-Robofriends/static/js/main.55d6d9ab.js",
+    "main.js": "/Papon-Robofriends/static/js/main.ae2de885.js",
     "static/js/787.baf084f3.chunk.js": "/Papon-Robofriends/static/js/787.baf084f3.chunk.js",
     "static/media/SEGA.woff": "/Papon-Robofriends/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
     "index.html": "/Papon-Robofriends/index.html",
     "main.98aaa3ac.css.map": "/Papon-Robofriends/static/css/main.98aaa3ac.css.map",
-    "main.55d6d9ab.js.map": "/Papon-Robofriends/static/js/main.55d6d9ab.js.map",
+    "main.ae2de885.js.map": "/Papon-Robofriends/static/js/main.ae2de885.js.map",
     "787.baf084f3.chunk.js.map": "/Papon-Robofriends/static/js/787.baf084f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98aaa3ac.css",
-    "static/js/main.55d6d9ab.js"
+    "static/js/main.ae2de885.js"
   ]
 }
