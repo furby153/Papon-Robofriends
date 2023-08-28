@@ -9,6 +9,7 @@ function App() {
 
     const [ robots, setRobots ] = useState([]);
     const [ searchfield, setSearchfield ] = useState('');
+    const [ count, setCount ] = useState(0);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -16,13 +17,14 @@ function App() {
             const response = await fetch('https://jsonplaceholder.typicode.com/users');
             const users = await response.json();
             setRobots(users);
+            console.log(count);
           } catch (error) {
             console.error('Error fetching data:', error);
           }
         };
     
         fetchData();
-      }, []); // Empty dependency array means this effect runs only once, similar to componentDidMount
+      }, [count]); // only run if count changes.
 
     const onSearchChange = (event) => {
         setSearchfield(event.target.value);
@@ -42,6 +44,7 @@ function App() {
     (
         <div className="tc">
         <h1 className="f1">Robofriends</h1>
+        <button onClick={()=>setCount(count+1)}>Click Me! {count===0 ? '':count}</button>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
             <ErrorBoundary>
